@@ -1,0 +1,31 @@
+/*
+Mohammad Baharudin Yusuf 
+1D Informatika 
+
+2. Nilai akhir dari mata kuliah Algoritma dan Pemrograman ditentukan oleh 4 nilai yaitu:
+a. Praktikum (20%)
+b. UTS (30%)
+c. UAS (50%)
+Buatlah program untuk menghitung nilai akhr mahasiswa tersebut, jika diketahui nilai 
+praktikum = 75, nilai UTS = 70, nilai UAS = 88!
+*/
+#include <iostream>
+#include <math.h>
+#include <string>
+
+using namespace std;
+
+int main (){
+    float praktikum = 75, uts = 70, uas = 88;
+    float NilaiAkhir;
+
+    cout << "Nilai praktikum = " << praktikum << endl;
+    cout << "Nilai uts = " << uts << endl;
+    cout << "Nilai uas = " << uas << endl;
+
+    NilaiAkhir = (praktikum * 20/100) + (uts * 30/100) + (uas * 50/100);
+
+    cout << "Nilai akhirnya adalah = " << NilaiAkhir << endl;
+
+    return 0;
+}
